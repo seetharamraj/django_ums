@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Title of the document</title>
+   </head>
+   <body>
+   <form>
+         <input type="button" onclick="window.location.href = '{% url 'update_lecturer' l_id %} ';" value="update"/>
+         <input type="button" onclick="window.location.href = '{% url 'view_student' l_id %} ';" value="view students"/>
+
+      </form>
+   </body>
+</html>
